@@ -1,0 +1,50 @@
+name: esporty
+description: The unique eSports contest/squad manager.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  # icons
+  cupertino_icons: ^1.0.3
+  eva_icons_flutter: ^3.0.2
+
+  # firebase
+  firebase_auth: ^3.1.1
+  firebase_database: ^8.0.0
+  firebase_storage: ^10.0.3
+  cloud_firestore: ^2.5.3
+  firebase_core: ^1.6.0
+
+  # utils
+  equatable: ^2.0.3
+  path_provider: ^2.0.3
+  image_picker: ^0.8.4
+  cached_network_image: ^3.1.0
+  shared_preferences: ^2.0.8
+
+  # widgets
+  flutter_form_builder: ^6.1.0+1
+  liquid_pull_to_refresh: ^3.0.0
+  dash_chat: ^1.1.16
+
+  # state management
+  flutter_bloc: ^7.3.0
+  hydrated_bloc: ^7.1.0
+
+  # social authentication
+  google_sign_in: ^5.1.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  bloc_test: ^8.2.0
+
+flutter:
+  uses-material-design: true
